@@ -13,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 322,
+          "DockedHeight": 333,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "primeiroProgramaCplusplus.cpp",
               "ToolTip": "C:\\Users\\Anderson\\Documents\\GitHub\\primeiroProgramaCplusplus\\primeiroProgramaCplusplus\\primeiroProgramaCplusplus.cpp",
               "RelativeToolTip": "primeiroProgramaCplusplus.cpp",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAgwLIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-02T20:25:01.385Z",
               "EditorCaption": ""
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "DockedHeight": 78,
+          "DockedHeight": 67,
           "SelectedChildIndex": -1,
           "Children": [
             {

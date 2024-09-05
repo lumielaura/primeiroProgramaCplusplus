@@ -1,16 +1,37 @@
 #include <iostream>
-using namespace std;
+//using namespace std;
+//using std::;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::string;
+
+/*
+namespace lugar1 
+{
+    // mesmo possivel repetir uma ou mais variáveis colocando elas em uma "namespace" diferente, mas sera preciso chamar essa variável na hora que precisar dela.
+    // exemplo: cout << lugar1::name << endl;
+    string nome = "Anderson";
+    int age = 31;
+}
+namespace lugar2 
+{
+    // exemplo: cout << lugar2::age << endl;
+    string nome = "Daniela";
+    int age = 17;
+}
+*/
 
 int main()
 {
-    /*
+/*
     //Primeira Aula
     cout << "Ola Mundo!\n"; //this will output olá mundo
     cout << "Meu nome e Anderson" << endl;
     cout << "Hoje e Segunda" << endl;
     cout << "O clima esta otimo" << endl << endl;
-
-
+*/
+/*
     //Segunda Aula
     float salarioAnual1 = 25000.99;
     float salarioMensal1 = salarioAnual1 / 12;
@@ -51,8 +72,8 @@ int main()
     int intMax = INT_MAX;
     cout << intMax << endl;
     cout << intMax + 1 << endl << endl;
-
-
+*/
+/*
     //aula 3 - ASCII - como sao representados os carac. para o computador
     cout << (int)'a' << endl;
     cout << int('a') << endl;
@@ -67,8 +88,8 @@ int main()
     cout << "Digite 5 letras: " << endl;
     cin >> c1 >> c2 >> c3 >> c4 >> c5;
     cout << "Mensagem ASCII: " << int(c1) << " " << int(c2) << " " << int(c3) << " " << int(c4) << " " << int(c5) << endl;
-
-
+*/
+/*
     //Aula 4
     //Usuario digita numero integral 
     //Trabalhando com condicionais
@@ -86,7 +107,8 @@ int main()
     }
 
     cout << "Obrigado, Ate mais.";
-
+*/
+/*
     //Resolvendo problemas usando if else
     //Definindo o tipo de triangulo | equilátero, escaléno e isóceles
     float a, b, c;
@@ -142,7 +164,8 @@ int main()
     cout << (a != b); //0 = Falso | A não é diferente de B
     
     system("cls");
-
+*/
+/*
     // &&,||,! - Tabela verdade
     // && - Apenas quando os dois são verdadeiros o resultado será TRUE.
     cout << (a == 5 && b == 5) << endl; //1
@@ -171,26 +194,97 @@ int main()
     x -= 7; //x = x - 7
     cout << x << endl; //-2
 
-    */
+
     //More exemples
     int a = 5, b = 4;
-    cout << a + (b++) << endl;
-    cout << (--a) + b << endl;
+    cout << a + (b++) << endl;//9
+    cout << (--a) + b << endl;//9
 
-    cout << !(true && false) << endl;//
-    cout << (true && false || true) << endl;//
+    cout << !(true && false) << endl;//1
+    cout << (true && false || true) << endl;//1
 
     int x = 7;
-    cout << (++x <= 9 && x + 2 >= 10) << endl;//
+    cout << (++x <= 9 && x + 2 >= 10) << endl;//1
 
     int y = 3;
-    cout << (y == y++) << endl;//
+    cout << (y == y++) << endl;//1
 
     float z = 8;
     z += 2;
-    cout << z << endl;//
+    cout << z << endl;//10
     z /= 2;
-    cout << z << endl;//
+    cout << z << endl;//5
+*/
+/*
+    //Trocar o valor de duas variaveis
+    int um = 20;
+    int dois = 10;
+
+    //primeira solução
+    int temp = a;
+    a = b;
+    b = temp;
+
+    cout << "a = " << a << "b = " << b << endl;
+
+    //segunda solução
+    a = a + b;//30
+    b = a - b;//20
+    a = a - b;//10
+
+    cout << "a = " << a << "b = " << b << endl;
+*/
+/*
+    * BMI Calculator
+    * weight(Kg) / (height * height)(m)
+    * underweight   < 18.5
+    * overweight    > 25
+    * normal weight 18.5 - 25
+
+    float peso, altura, bmi;
+    cout << "Calculadora do Indice de Massa Corporal\nDigite seus dados\nPeso(Kg): ";
+    cin >> peso;
+    cout << "Altura(m): ";
+    cin >> altura;
+
+    bmi = peso / (altura * altura);
+    
+    if (bmi < 18.5)
+        cout << "Abaixo do Peso" << endl;
+    else if (bmi > 25)
+        cout << "Acima do Peso" << endl;
+    else
+        cout << "Peso Normal" << endl;
+
+    cout << "Seu Indice de Massa Corporal e " << bmi;
+*/
+/*
+    //Aula 9
+    //Jogo - O guest precisa acertar o numero que o host colocou.
+    int hostUserNum, guestUserNum;
+    
+    cout << "Host: ";
+    cin >> hostUserNum;
+    system("cls");
+
+    cout << "Guest: ";
+    cin >> guestUserNum;
+
+    //primeiro solução
+    (hostUserNum == guestUserNum) ? cout << "Correto!" : cout << "Errado!\nO numero digitado pelo Host foi " << hostUserNum;
+
+    //segunda solução
+    //if (hostUserNum == guestUserNum)
+    //    cout << "Correto!";
+    //else
+    //   cout << "Errado!";
+*/
+/*
+*/
+    //Aula 10
+    //
+
+
 
     system("pause>0");
 }
