@@ -24,8 +24,12 @@
         },
         {
           "DockedHeight": 67,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -34,14 +38,10 @@
               "RelativeDocumentMoniker": "primeiroProgramaCplusplus.cpp",
               "ToolTip": "C:\\Users\\Anderson\\Documents\\GitHub\\primeiroProgramaCplusplus\\primeiroProgramaCplusplus\\primeiroProgramaCplusplus.cpp",
               "RelativeToolTip": "primeiroProgramaCplusplus.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-09T14:56:48.474Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
