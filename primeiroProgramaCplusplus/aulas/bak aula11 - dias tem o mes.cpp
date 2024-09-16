@@ -18,8 +18,10 @@ int main()
         
     //(ano % 4 == 0 && ano % 100 != 0 || ano % 400 == 0)
     int ano, mes;
-    cout << "Ano, mês: ";
-    cin >> ano >> mes;
+    cout << "Ano: ";
+    cin >> ano;
+    cout << "Mês: ";
+    cin >> mes;
 
     switch (mes)
     {

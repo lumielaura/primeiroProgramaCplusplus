@@ -12,8 +12,8 @@ int main()
 
 
     //Comentar a linha atual - ctrl+k|c
-    //Aula 12
 
+    //Aula 12
     //3 blocos principais da programação: 
     //Selection, Sequencing, Iteration
     //Sequencing - O código é executado sequencialmente, linha por linha.
